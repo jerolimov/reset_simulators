@@ -1,4 +1,4 @@
-# Just reset Xcode simulators with a opinionated mix of iPhone/iPad/iOS versions
+# Just reset all your Xcode simulators with a opinionated mix of iPhone/iPad/iOS versions
 
 ⚠️ Removes all you local Xcode simulators and create a clean & fresh list. ⚠️
 
