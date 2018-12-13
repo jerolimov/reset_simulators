@@ -2,7 +2,7 @@
 
 ⚠️ Removes all you local Xcode simulators and create a clean & fresh list. ⚠️
 
-![Screenshot](screenshot.png)
+<img src="https://github.com/jerolimov/reset_simulators/blob/master/screenshot.png" width="228" height="346" />
 
 To run this script directly from GitHub, just run:
 
