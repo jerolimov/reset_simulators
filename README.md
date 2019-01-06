@@ -1,6 +1,6 @@
 # Just reset all your Xcode simulators with a opinionated mix of iPhone/iPad/iOS versions
 
-⚠️ Removes all you local Xcode simulators and create a clean & fresh list. ⚠️
+⚠️ Removes all you local Xcode simulators and create a clean & fresh list.
 
 <img src="https://github.com/jerolimov/reset_simulators/blob/master/screenshot.png" width="228" height="346" />
 
@@ -10,13 +10,11 @@ To run this script directly from GitHub, just run:
 \curl -fsSL "https://raw.githubusercontent.com/jerolimov/reset_simulators/master/reset_simulators.sh" | \bash
 ```
 
-⚠️ But remember: This script removes all your local Xcode simulators. ⚠️
-
-<br/><br/><br/>
+<br/><br/>
 
 ## MIT License
 
-Copyright (c) 2018 The author of reset_simulators.sh
+Copyright (c) 2018 Christoph Jerolimov
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
