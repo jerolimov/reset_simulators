@@ -1,6 +1,9 @@
-# Just reset all your Xcode simulators with a opinionated mix of iPhone/iPad/iOS versions
+# Reset (delete and re-creates) all list of Xcode simulators
 
-⚠️ Removes all you local Xcode simulators and create a clean & fresh list.
+This small shell script was inspired by the [fastlane](https://fastlane.tools/) CLI and sub-command
+`fastlane snapshot reset_simulators`<sup>[1](https://docs.fastlane.tools/actions/snapshot/#completely-reset-all-simulators)<sup>.
+
+But instead of creating a really long list of iPhone, iPad and Apple Watch simulators, it creates a small and hopefully useful (opinionated) mix of iPhone/iPad/iOS versions. The final result looks simular to this list:
 
 <img src="https://github.com/jerolimov/reset_simulators/blob/master/screenshot.png" width="228" height="346" />
 
@@ -9,6 +12,8 @@ To run this script directly from GitHub, just run:
 ```
 \curl -fsSL "https://raw.githubusercontent.com/jerolimov/reset_simulators/master/reset_simulators.sh" | \bash
 ```
+
+⚠️ Please notice: This command will remove all you local Xcode simulators and create a clean & fresh list.
 
 <br/><br/>
 
