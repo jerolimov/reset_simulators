@@ -3,7 +3,7 @@
 This small shell script was inspired by the [fastlane](https://fastlane.tools/) CLI and sub-command
 `fastlane snapshot reset_simulators`<sup>[1](https://docs.fastlane.tools/actions/snapshot/#completely-reset-all-simulators)</sup>. It removes all your Xcode simulators and re-create a list of new instances.
 
-But instead of creating a really long list of iPhone, iPad and Apple Watch simulators, it creates a small and hopefully useful (opinionated) mix of iPhone/iPad/iOS versions. The final result looks simular to this list:
+But instead of creating a really long list of iPhone, iPad and Apple Watch simulators, it creates a small and hopefully useful (opinionated) mix of iPhone/iPad/iOS sizes and versions. The final result looks simular to this list:
 
 <img src="https://github.com/jerolimov/reset_simulators/blob/master/screenshot.png" width="228" height="346" />
 
@@ -19,7 +19,7 @@ To run this script directly from GitHub, just run:
 
 ## MIT License
 
-Copyright (c) 2018 Christoph Jerolimov
+Copyright (c) 2018-2019 Christoph Jerolimov
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
