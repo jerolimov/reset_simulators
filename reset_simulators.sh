@@ -13,7 +13,7 @@ iPhone=com.apple.CoreSimulator.SimDeviceType.iPhone
 iPad=com.apple.CoreSimulator.SimDeviceType.iPad
 iOS=com.apple.CoreSimulator.SimRuntime.iOS
 
-xcrun simctl create "iPhone 5 (9.3)"               "$iPhone-5"                               "$iOS-9-3"
+#xcrun simctl create "iPhone 5 (9.3)"               "$iPhone-5"                               "$iOS-9-3"
 xcrun simctl create "iPhone 5 (10.3)"              "$iPhone-5"                               "$iOS-10-3"
 xcrun simctl create "iPhone 5s (11.4)"             "$iPhone-5s"                              "$iOS-11-4"
 
@@ -27,10 +27,11 @@ xcrun simctl create "iPhone X (12.2)"              "$iPhone-X"                  
 xcrun simctl create "iPhone Xs (12.2)"             "$iPhone-XS"                              "$iOS-12-2"
 xcrun simctl create "iPhone Xs Max (12.2)"         "$iPhone-XS-Max"                          "$iOS-12-2"
 xcrun simctl create "iPhone Xʀ (12.2)"             "$iPhone-XR"                              "$iOS-12-2"
-xcrun simctl create "iPhone 11 (13.1)"             "$iPhone-11"                              "$iOS-13-1"
+xcrun simctl create "iPhone 11 (13.2)"             "$iPhone-11"                              "$iOS-13-2"
+xcrun simctl create "iPhone 11 Pro (13.2)"         "$iPhone-11-Pro"                          "$iOS-13-2"
 
-xcrun simctl create "iPad 2 (9.3)"                 "$iPad-2"                                 "$iOS-9-3"
+#xcrun simctl create "iPad 2 (9.3)"                 "$iPad-2"                                 "$iOS-9-3"
 xcrun simctl create "iPad Pro (9.7-inch) (10.3)"   "$iPad-Pro--9-7-inch-"                    "$iOS-10-3"
 xcrun simctl create "iPad Pro (10.5-inch) (11.4)"  "$iPad-Pro--10-5-inch-"                   "$iOS-11-4"
 xcrun simctl create "iPad Pro (12.9-inch) (12.2)"  "$iPad-Pro--12-9-inch---3rd-generation-"  "$iOS-12-2"
-xcrun simctl create "iPad Pro (12.9-inch) (13.1)"  "$iPad-Pro--12-9-inch---3rd-generation-"  "$iOS-13-1"
+xcrun simctl create "iPad Pro (12.9-inch) (13.2)"  "$iPad-Pro--12-9-inch---3rd-generation-"  "$iOS-13-2"
